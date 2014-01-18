@@ -239,6 +239,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Andrew Paterson";
 				TargetAttributes = {
+					AE2C8B51188ACCDC00C94112 = {
+						DevelopmentTeam = HEFSF24EZX;
+					};
 					AE2C8B79188ACCDC00C94112 = {
 						TestTargetID = AE2C8B51188ACCDC00C94112;
 					};
@@ -458,6 +461,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(LOCAL_LIBRARY_DIR)/Frameworks",
@@ -477,6 +481,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(LOCAL_LIBRARY_DIR)/Frameworks",
