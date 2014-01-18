@@ -28,6 +28,11 @@
     [skView presentScene:scene];
 }
 
+- (UIStatusBarStyle)preferredStatusBarStyle
+{
+    return UIStatusBarStyleLightContent;
+}
+
 - (BOOL)shouldAutorotate
 {
     return YES;

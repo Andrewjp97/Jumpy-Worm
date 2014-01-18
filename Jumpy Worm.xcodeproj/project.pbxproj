@@ -17,13 +17,19 @@
 		AE2C8B6B188ACCDC00C94112 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE2C8B69188ACCDC00C94112 /* Main.storyboard */; };
 		AE2C8B6E188ACCDC00C94112 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE2C8B6D188ACCDC00C94112 /* ViewController.m */; };
 		AE2C8B71188ACCDC00C94112 /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = AE2C8B70188ACCDC00C94112 /* MyScene.m */; };
-		AE2C8B73188ACCDC00C94112 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = AE2C8B72188ACCDC00C94112 /* Spaceship.png */; };
-		AE2C8B75188ACCDC00C94112 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE2C8B74188ACCDC00C94112 /* Images.xcassets */; };
 		AE2C8B7C188ACCDC00C94112 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE2C8B7B188ACCDC00C94112 /* XCTest.framework */; };
 		AE2C8B7D188ACCDC00C94112 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE2C8B55188ACCDC00C94112 /* Foundation.framework */; };
 		AE2C8B7E188ACCDC00C94112 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE2C8B59188ACCDC00C94112 /* UIKit.framework */; };
 		AE2C8B86188ACCDC00C94112 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE2C8B84188ACCDC00C94112 /* InfoPlist.strings */; };
 		AE2C8B88188ACCDC00C94112 /* Jumpy_WormTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE2C8B87188ACCDC00C94112 /* Jumpy_WormTests.m */; };
+		AE2C8B92188ACD3300C94112 /* TouchDetector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE2C8B91188ACD3300C94112 /* TouchDetector.framework */; };
+		AE2C8B94188ACDC000C94112 /* autumn-tree-maple-wallpaper-197306.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE2C8B93188ACDC000C94112 /* autumn-tree-maple-wallpaper-197306.jpg */; };
+		AE2C8B96188ACDC500C94112 /* beautiful-colourful-wallpaper-hd.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE2C8B95188ACDC500C94112 /* beautiful-colourful-wallpaper-hd.jpg */; };
+		AE2C8B98188ACDCB00C94112 /* sunset-beach-hd_3749060.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE2C8B97188ACDCB00C94112 /* sunset-beach-hd_3749060.jpg */; };
+		AE2C8B9A188AD1A800C94112 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE2C8B99188AD1A800C94112 /* Media.xcassets */; };
+		AECEFCBD188AF1F900C80E91 /* SKWormNode.m in Sources */ = {isa = PBXBuildFile; fileRef = AECEFCBC188AF1F900C80E91 /* SKWormNode.m */; };
+		AECEFCC0188AF96300C80E91 /* SKPlatformNode.m in Sources */ = {isa = PBXBuildFile; fileRef = AECEFCBF188AF96300C80E91 /* SKPlatformNode.m */; };
+		E128D04D391040DC80239233 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 457E915BD28C4C2F959C4874 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		457E915BD28C4C2F959C4874 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ABB9E0975F344D5A98D68A2 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		AE2C8B52188ACCDC00C94112 /* Jumpy Worm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jumpy Worm.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE2C8B55188ACCDC00C94112 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AE2C8B57188ACCDC00C94112 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,13 +61,20 @@
 		AE2C8B6D188ACCDC00C94112 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		AE2C8B6F188ACCDC00C94112 /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
 		AE2C8B70188ACCDC00C94112 /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
-		AE2C8B72188ACCDC00C94112 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
-		AE2C8B74188ACCDC00C94112 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AE2C8B7A188ACCDC00C94112 /* Jumpy WormTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jumpy WormTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE2C8B7B188ACCDC00C94112 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		AE2C8B83188ACCDC00C94112 /* Jumpy WormTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Jumpy WormTests-Info.plist"; sourceTree = "<group>"; };
 		AE2C8B85188ACCDC00C94112 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AE2C8B87188ACCDC00C94112 /* Jumpy_WormTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Jumpy_WormTests.m; sourceTree = "<group>"; };
+		AE2C8B91188ACD3300C94112 /* TouchDetector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TouchDetector.framework; path = ../../../../../Library/Frameworks/TouchDetector.framework; sourceTree = "<group>"; };
+		AE2C8B93188ACDC000C94112 /* autumn-tree-maple-wallpaper-197306.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "autumn-tree-maple-wallpaper-197306.jpg"; sourceTree = "<group>"; };
+		AE2C8B95188ACDC500C94112 /* beautiful-colourful-wallpaper-hd.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "beautiful-colourful-wallpaper-hd.jpg"; sourceTree = "<group>"; };
+		AE2C8B97188ACDCB00C94112 /* sunset-beach-hd_3749060.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sunset-beach-hd_3749060.jpg"; sourceTree = "<group>"; };
+		AE2C8B99188AD1A800C94112 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		AECEFCBB188AF1F900C80E91 /* SKWormNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKWormNode.h; sourceTree = "<group>"; };
+		AECEFCBC188AF1F900C80E91 /* SKWormNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKWormNode.m; sourceTree = "<group>"; };
+		AECEFCBE188AF96300C80E91 /* SKPlatformNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKPlatformNode.h; sourceTree = "<group>"; };
+		AECEFCBF188AF96300C80E91 /* SKPlatformNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKPlatformNode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,10 +82,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE2C8B92188ACD3300C94112 /* TouchDetector.framework in Frameworks */,
 				AE2C8B58188ACCDC00C94112 /* CoreGraphics.framework in Frameworks */,
 				AE2C8B5A188ACCDC00C94112 /* UIKit.framework in Frameworks */,
 				AE2C8B5C188ACCDC00C94112 /* SpriteKit.framework in Frameworks */,
 				AE2C8B56188ACCDC00C94112 /* Foundation.framework in Frameworks */,
+				E128D04D391040DC80239233 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,10 +107,12 @@
 		AE2C8B49188ACCDC00C94112 = {
 			isa = PBXGroup;
 			children = (
+				AE2C8B99188AD1A800C94112 /* Media.xcassets */,
 				AE2C8B5D188ACCDC00C94112 /* Jumpy Worm */,
 				AE2C8B81188ACCDC00C94112 /* Jumpy WormTests */,
 				AE2C8B54188ACCDC00C94112 /* Frameworks */,
 				AE2C8B53188ACCDC00C94112 /* Products */,
+				9ABB9E0975F344D5A98D68A2 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,11 +128,13 @@
 		AE2C8B54188ACCDC00C94112 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AE2C8B91188ACD3300C94112 /* TouchDetector.framework */,
 				AE2C8B55188ACCDC00C94112 /* Foundation.framework */,
 				AE2C8B57188ACCDC00C94112 /* CoreGraphics.framework */,
 				AE2C8B59188ACCDC00C94112 /* UIKit.framework */,
 				AE2C8B5B188ACCDC00C94112 /* SpriteKit.framework */,
 				AE2C8B7B188ACCDC00C94112 /* XCTest.framework */,
+				457E915BD28C4C2F959C4874 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -126,10 +147,15 @@
 				AE2C8B69188ACCDC00C94112 /* Main.storyboard */,
 				AE2C8B6C188ACCDC00C94112 /* ViewController.h */,
 				AE2C8B6D188ACCDC00C94112 /* ViewController.m */,
+				AE2C8B95188ACDC500C94112 /* beautiful-colourful-wallpaper-hd.jpg */,
+				AE2C8B97188ACDCB00C94112 /* sunset-beach-hd_3749060.jpg */,
 				AE2C8B6F188ACCDC00C94112 /* MyScene.h */,
 				AE2C8B70188ACCDC00C94112 /* MyScene.m */,
-				AE2C8B72188ACCDC00C94112 /* Spaceship.png */,
-				AE2C8B74188ACCDC00C94112 /* Images.xcassets */,
+				AECEFCBE188AF96300C80E91 /* SKPlatformNode.h */,
+				AECEFCBF188AF96300C80E91 /* SKPlatformNode.m */,
+				AECEFCBB188AF1F900C80E91 /* SKWormNode.h */,
+				AECEFCBC188AF1F900C80E91 /* SKWormNode.m */,
+				AE2C8B93188ACDC000C94112 /* autumn-tree-maple-wallpaper-197306.jpg */,
 				AE2C8B5E188ACCDC00C94112 /* Supporting Files */,
 			);
 			path = "Jumpy Worm";
@@ -171,9 +197,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AE2C8B8B188ACCDC00C94112 /* Build configuration list for PBXNativeTarget "Jumpy Worm" */;
 			buildPhases = (
+				19F0DC828A8143718CA9F4E9 /* Check Pods Manifest.lock */,
 				AE2C8B4E188ACCDC00C94112 /* Sources */,
 				AE2C8B4F188ACCDC00C94112 /* Frameworks */,
 				AE2C8B50188ACCDC00C94112 /* Resources */,
+				8F233F1D144E467DAAF0C048 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -240,10 +268,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE2C8B94188ACDC000C94112 /* autumn-tree-maple-wallpaper-197306.jpg in Resources */,
 				AE2C8B62188ACCDC00C94112 /* InfoPlist.strings in Resources */,
-				AE2C8B75188ACCDC00C94112 /* Images.xcassets in Resources */,
-				AE2C8B73188ACCDC00C94112 /* Spaceship.png in Resources */,
+				AE2C8B9A188AD1A800C94112 /* Media.xcassets in Resources */,
 				AE2C8B6B188ACCDC00C94112 /* Main.storyboard in Resources */,
+				AE2C8B96188ACDC500C94112 /* beautiful-colourful-wallpaper-hd.jpg in Resources */,
+				AE2C8B98188ACDCB00C94112 /* sunset-beach-hd_3749060.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +287,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		19F0DC828A8143718CA9F4E9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8F233F1D144E467DAAF0C048 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AE2C8B4E188ACCDC00C94112 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -264,6 +327,8 @@
 			files = (
 				AE2C8B71188ACCDC00C94112 /* MyScene.m in Sources */,
 				AE2C8B6E188ACCDC00C94112 /* ViewController.m in Sources */,
+				AECEFCC0188AF96300C80E91 /* SKPlatformNode.m in Sources */,
+				AECEFCBD188AF1F900C80E91 /* SKWormNode.m in Sources */,
 				AE2C8B68188ACCDC00C94112 /* AppDelegate.m in Sources */,
 				AE2C8B64188ACCDC00C94112 /* main.m in Sources */,
 			);
@@ -389,9 +454,14 @@
 		};
 		AE2C8B8C188ACCDC00C94112 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ABB9E0975F344D5A98D68A2 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Jumpy Worm/Jumpy Worm-Prefix.pch";
 				INFOPLIST_FILE = "Jumpy Worm/Jumpy Worm-Info.plist";
@@ -403,9 +473,14 @@
 		};
 		AE2C8B8D188ACCDC00C94112 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ABB9E0975F344D5A98D68A2 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Jumpy Worm/Jumpy Worm-Prefix.pch";
 				INFOPLIST_FILE = "Jumpy Worm/Jumpy Worm-Info.plist";
@@ -476,6 +551,7 @@
 				AE2C8B8D188ACCDC00C94112 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AE2C8B8E188ACCDC00C94112 /* Build configuration list for PBXNativeTarget "Jumpy WormTests" */ = {
 			isa = XCConfigurationList;
@@ -484,6 +560,7 @@
 				AE2C8B90188ACCDC00C94112 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
